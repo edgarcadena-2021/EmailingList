@@ -3,9 +3,34 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmailingList.Application", "EmailingList.Application", "{ABAAD364-10F9-494B-8B05-75E28C2F533F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmailingList.Domain", "EmailingList.Domain", "{F0217727-EA12-468D-90D4-DB67C37E0FCA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmailingList.Data", "EmailingList.Data", "{F092FBF5-C89E-479E-9AAE-A2574714EAE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmailingList.IoC", "EmailingList.IoC", "{988D5444-545F-4B7E-9F55-693FF62D2539}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmailingList.UI.MVC", "EmailingList.UI.MVC", "{B3E5DDA0-F0E4-446A-AAAF-EC66525C1757}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailingList.MVC", "EmailingList.MVC\EmailingList.MVC.csproj", "{444A5DE4-E9A1-409E-94F4-52257FD08A78}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{444A5DE4-E9A1-409E-94F4-52257FD08A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{444A5DE4-E9A1-409E-94F4-52257FD08A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{444A5DE4-E9A1-409E-94F4-52257FD08A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{444A5DE4-E9A1-409E-94F4-52257FD08A78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{444A5DE4-E9A1-409E-94F4-52257FD08A78} = {B3E5DDA0-F0E4-446A-AAAF-EC66525C1757}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {60A8993E-F4F3-457C-B10C-53D689465FBE}
