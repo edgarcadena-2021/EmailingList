@@ -1,2 +1,16 @@
 ﻿/.vs
 /EmailingList.MVC/obj
+/Emailing.Data/bin/Debug/net5.0
+/Emailing.Data/obj
+/Emailing.Infra.Bus/bin/Debug/net5.0
+/Emailing.Infra.Bus/obj
+/EmailingList.API/obj
+/EmailingList.Application/bin/Debug/net5.0
+/EmailingList.Application/obj
+/EmailingList.Domain/bin/Debug/net5.0
+/EmailingList.Domain/obj
+/EmailingList.Domain.Core/bin/Debug/net5.0
+/EmailingList.Domain.Core/obj
+/EmailingList.IoC/bin/Debug/net5.0
+/EmailingList.IoC/obj
+/EmailingList.MVC/bin/Debug/net5.0
